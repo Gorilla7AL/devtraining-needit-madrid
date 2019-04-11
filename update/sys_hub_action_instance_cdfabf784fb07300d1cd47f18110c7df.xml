@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>Create High Priority Legal request NeedIt Task</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">c54c067c4f7c3300d1cd47f18110c7dc</flow>
+        <order>3.2.1.1</order>
+        <parent_ui_id>e89aa164-99b6-4131-bd86-47b89e215cdc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 23:46:17</sys_created_on>
+        <sys_id>cdfabf784fb07300d1cd47f18110c7df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cdfabf784fb07300d1cd47f18110c7df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 23:46:17</sys_updated_on>
+        <ui_id>eca56b11-b083-4eb7-8314-9a19c1c68577</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cdfabf784fb07300d1cd47f18110c7df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cdfabf784fb07300d1cd47f18110c7df</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 23:46:17</sys_created_on>
+        <sys_id>c9fabf784fb07300d1cd47f18110c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 23:46:17</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cdfabf784fb07300d1cd47f18110c7df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>cdfabf784fb07300d1cd47f18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 23:46:17</sys_created_on>
+        <sys_id>49fabf784fb07300d1cd47f18110c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 23:46:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{70bd525a-06ee-4489-9c46-235ffa8fdc70.record}}^assigned_to={{86f5dd3e-fc01-4f27-9742-ebc553ca349a.answer.assignee}}^due_date={{70bd525a-06ee-4489-9c46-235ffa8fdc70.record.u_when_needed}}^short_description=Complete Legal NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>cdfabf784fb07300d1cd47f18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 23:46:17</sys_created_on>
+        <sys_id>85fabf784fb07300d1cd47f18110c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 23:46:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
